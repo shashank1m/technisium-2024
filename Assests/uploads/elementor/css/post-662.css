@@ -1,0 +1,82 @@
+.elementor-662 .elementor-element.elementor-element-5b5f61b {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --gap: 0px 0px;
+    --background-transition: 0.3s;
+}
+
+.elementor-662 .elementor-element.elementor-element-6ce585c {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --background-transition: 0.3s;
+}
+
+.elementor-662 .elementor-element.elementor-element-8a6e48c .elementor-heading-title {
+    color: #CAD4D9;
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-662 .elementor-element.elementor-element-8f61758 {
+    color: #FFFFFFEB;
+    font-family: "Ruslan Display", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-662 .elementor-element.elementor-element-0d17be7 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --justify-content: space-evenly;
+    --align-items: center;
+    --flex-wrap: wrap;
+    --align-content: space-evenly;
+    --background-transition: 0.3s;
+}
+
+.elementor-662 .elementor-element.elementor-element-a9d2c00 {
+    --grid-template-columns: repeat(5, auto);
+    --grid-column-gap: 5px;
+    --grid-row-gap: 0px;
+    width: var( --container-widget-width, 100%);
+    max-width: 100%;
+    --container-widget-width: 100%;
+    --container-widget-flex-grow: 0;
+}
+
+.elementor-662 .elementor-element.elementor-element-a9d2c00 .elementor-widget-container {
+    text-align: right;
+}
+
+.elementor-662 .elementor-element.elementor-element-a9d2c00 .elementor-social-icon {
+    border-style: solid;
+}
+
+.elementor-662 .elementor-element.elementor-element-a9d2c00.elementor-element {
+    --align-self: stretch;
+    --flex-grow: 0;
+    --flex-shrink: 0;
+}
+
+@media(min-width:768px) {
+    .elementor-662 .elementor-element.elementor-element-5b5f61b {
+        --content-width: 1600px;
+    }
+    .elementor-662 .elementor-element.elementor-element-6ce585c {
+        --width: 50%;
+    }
+    .elementor-662 .elementor-element.elementor-element-0d17be7 {
+        --width: 50%;
+    }
+}
